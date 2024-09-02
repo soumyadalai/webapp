@@ -1,6 +1,6 @@
 <html>
   <body>
-  <h1>Welcome to jenkin</h1>
+  <h1>Welcome to Tomcat</h1>
 
   </body>
   </html>
