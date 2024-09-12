@@ -28,6 +28,30 @@
   </dependency>
   </dependencies>
 
+  <distributionManagement>
+		<repository>
+			<id>nexus</id>
+			<name>test</name>
+			<url><distributionManagement>
+		<repository>
+			<id>nexus</id>
+			<name>test</name>
+			<url>http://3.110.186.53:8081/repository/test/</url>
+		</repository>
+		<snapshotRepository>
+			<id>nexus</id>
+			<name>testrepo</name>
+			<url>http://3.110.186.53:8081/repository/test/</url>
+		</snapshotRepository>
+	</distributionManagement></url>
+		</repository>
+		<snapshotRepository>
+			<id>nexus</id>
+			<name>testrepo</name>
+			<url>http://15.207.16.181:8081/repository/testrepo/</url>
+		</snapshotRepository>
+	</distributionManagement>
+  
   <build>
     <finalName>idream-it-solutions</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
