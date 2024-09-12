@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -28,11 +29,8 @@
   </dependency>
   </dependencies>
 
-  <distributionManagement>
-		<repository>
-			<id>nexus</id>
-			<name>test</name>
-			<url><distributionManagement>
+  
+		<distributionManagement>
 		<repository>
 			<id>nexus</id>
 			<name>test</name>
@@ -42,13 +40,6 @@
 			<id>nexus</id>
 			<name>testrepo</name>
 			<url>http://3.110.186.53:8081/repository/test/</url>
-		</snapshotRepository>
-	</distributionManagement></url>
-		</repository>
-		<snapshotRepository>
-			<id>nexus</id>
-			<name>testrepo</name>
-			<url>http://15.207.16.181:8081/repository/testrepo/</url>
 		</snapshotRepository>
 	</distributionManagement>
   
